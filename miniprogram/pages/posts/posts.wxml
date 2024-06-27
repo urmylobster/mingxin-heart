@@ -1,4 +1,5 @@
 <!--pages/posts.wxml-->
 <!--index.wxml-->
-<navigation-bar title="Weixin" back="{{false}}" color="black" background="#FFF"></navigation-bar>
-<text>学学车</text>
+<view class="container">
+  <text>学习小程序 HelloWorld!</text>
+</view>
