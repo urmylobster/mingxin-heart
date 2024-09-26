@@ -1,14 +1,33 @@
 {
   "pages": [
     "pages/posts/posts",
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/index/index"
   ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationStyle": "custom"
   },
   "style": "v2",
+  "tabBar": {
+    "color": "#8c8c8c",
+    "selectedColor": "#f4645f",
+    "backgroundColor": "white",
+    "list": [{
+      "pagePath": "pages/posts/post",
+      "text": "首页",
+      "iconPath":"images/48.png",
+      "selectedIconPath":"images/48.png"
+    }, 
+
+    {
+      "pagePath": "pages/user/user",      
+      "text": "我的",
+      "iconPath":"images/48.png",
+      "selectedIconPath":"images/48.png"
+    }  
+    ],
+    "position": "bottom"
+  },
   "rendererOptions": {
     "skyline": {
       "defaultDisplayBlock": true,

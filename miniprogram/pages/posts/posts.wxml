@@ -1,5 +1,5 @@
 <!--pages/posts.wxml-->
 <!--index.wxml-->
 <view class="container">
-  <text>学习小程序 HelloWorld!</text>
+  <text>学习即兴戏剧</text>
 </view>
