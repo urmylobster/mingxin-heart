@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/posts/posts",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/user/user"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -10,21 +11,27 @@
   "style": "v2",
   "tabBar": {
     "color": "#8c8c8c",
-    "selectedColor": "#f4645f",
+    "selectedColor": "#FFC0CB",
     "backgroundColor": "white",
-    "list": [{
-      "pagePath": "pages/posts/post",
-      "text": "首页",
-      "iconPath":"images/48.png",
-      "selectedIconPath":"images/48.png"
-    }, 
-
-    {
-      "pagePath": "pages/user/user",      
-      "text": "我的",
-      "iconPath":"images/48.png",
-      "selectedIconPath":"images/48.png"
-    }  
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-active.png"
+      },
+      {
+        "pagePath": "pages/posts/posts",
+        "text": "收藏",
+        "iconPath": "images/heart.png",
+        "selectedIconPath": "images/heart-active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user-active.png"
+      }
     ],
     "position": "bottom"
   },

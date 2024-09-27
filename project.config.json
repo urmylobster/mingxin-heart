@@ -13,15 +13,17 @@
       "outputPath": ""
     },
     "coverView": false,
-    "postcss": true,
-    "minified": true,
+    "postcss": false,
+    "minified": false,
     "enhance": false,
     "showShadowRootInWxmlPanel": false,
     "packNpmRelationList": [],
     "ignoreUploadUnusedFiles": true,
     "compileHotReLoad": false,
     "skylineRenderEnable": true,
-    "uglifyFileName": true
+    "uglifyFileName": true,
+    "minifyWXSS": false,
+    "minifyWXML": false
   },
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
